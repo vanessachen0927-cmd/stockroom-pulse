@@ -27,7 +27,7 @@ run_worker_first = ["/api/*", "/ws/*", "/internal/*", "/v1/*", "/_deepspace/*", 
 # subdomain label the next deploy claims; this id never changes — data,
 # secrets, and collaborators all key to it. Renames are safe.
 [vars]
-DEEPSPACE_APP_ID = "__APP_ID__"
+DEEPSPACE_APP_ID = "app_01M7N8H0WCGD24F7EQSN2D4E09"
 APP_NAME = "stockroom-pulse"
 # Exact comma-separated native callback URIs. Set this before deploying an
 # Expo client, for example: "myapp://auth/callback".
