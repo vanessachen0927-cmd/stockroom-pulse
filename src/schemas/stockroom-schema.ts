@@ -20,8 +20,8 @@ export const inventoryExceptionsSchema: CollectionSchema = {
   permissions: {
     '*': { read: false, create: false, update: false, delete: false },
     viewer: { read: false, create: false, update: false, delete: false },
-    member: { read: true, create: true, update: true, delete: false },
-    admin: { read: true, create: true, update: true, delete: true },
+    member: { read: true, create: true, update: false, delete: false },
+    admin: { read: true, create: true, update: false, delete: true },
   },
 }
 
